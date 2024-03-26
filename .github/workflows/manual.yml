@@ -38,7 +38,7 @@ jobs:
           pip install browserstack-sdk
      - name: Install dependencies
        run: |
-          cp test/DistaCartTestAutomation/requirements.txt
+          cd ./test/DistaCartTestAutomation/Tests/
           pip install -r requirements.txt  # adjust accordingly if you have a requirements file
      - name: Run BrowserStack tests
        run: |
