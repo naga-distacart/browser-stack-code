@@ -21,7 +21,7 @@ jobs:
      - name: Checkout Repository
        uses: actions/checkout@v2
      - name: Change to tests directory
-       run: cd ./DistaCartTestAutomation/Tests/
+       run: cd ./test/DistaCartTestAutomation/Tests/
      - name: Print directory contents
        run: ls -la
 
