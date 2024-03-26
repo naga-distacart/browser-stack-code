@@ -42,4 +42,5 @@ jobs:
           pip install -r requirements.txt  # adjust accordingly if you have a requirements file
      - name: Run BrowserStack tests
        run: |
+         cd ./test/DistaCartTestAutomation/Tests/
          browserstack-sdk pytest -u ${{ env.BROWSERSTACK_USERNAME }} -a ${{ env.BROWSERSTACK_ACCESS_KEY }}  -m sanity
