@@ -32,7 +32,11 @@ jobs:
      - name: Copy browserstack.yml to working directory
        run: cp test/DistaCartTestAutomation/Tests/browserstack.yml .
 
-
+     - name: Remove __pycache__ and .pyc files
+       run: |
+          find . -name "__pycache__" -exec rm -rf {} +
+          find . -name "*.pyc" -exec rm -f {} +
+   
      - name: Install BrowserStack SDK
        run: |
           pip install browserstack-sdk
