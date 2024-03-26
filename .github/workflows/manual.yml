@@ -1,0 +1,47 @@
+# This is a basic workflow that is manually triggered
+
+name: Manual workflow
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on: 
+ push:
+    branches:
+      - browser-stack-test-code
+ workflow_dispatch:
+env:
+    BROWSERSTACK_USERNAME: maheshbabu_h3dcwH
+    BROWSERSTACK_ACCESS_KEY: GwxKY3gbpbPny5zFqUs4
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+ run_tests:
+    name: Run BrowserStack Tests
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Runs a single command using the runners shell
+     - name: Checkout Repository
+       uses: actions/checkout@v2
+     - name: Change to tests directory
+       run: cd ./DistaCartTestAutomation/Tests/
+     - name: Print directory contents
+       run: ls -la
+
+     - name: Set up Python
+       uses: actions/setup-python@v2
+       with:
+          python-version: '3.x'  # Specify the Python version you need
+     - name: Copy browserstack.yml to working directory
+       run: cp DistaCartTestAutomation/Tests/browserstack.yml .
+
+
+     - name: Install BrowserStack SDK
+       run: |
+          pip install browserstack-sdk
+     - name: Install dependencies
+       run: |
+          pip install -r requirements.txt  # adjust accordingly if you have a requirements file
+     - name: Run BrowserStack tests
+       run: |
+         browserstack-sdk pytest -u ${{ env.BROWSERSTACK_USERNAME }} -a ${{ env.BROWSERSTACK_ACCESS_KEY }}  -m sanity
