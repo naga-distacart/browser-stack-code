@@ -43,4 +43,6 @@ jobs:
      - name: Run BrowserStack tests
        run: |
          cd ./test/DistaCartTestAutomation/Tests/
-         browserstack-sdk pytest -U ${{ env.BROWSERSTACK_USERNAME }} -K ${{ env.BROWSERSTACK_ACCESS_KEY }}  -m sanity
+         export BROWSERSTACK_USERNAME=${{ env.BROWSERSTACK_USERNAME }}
+         export BROWSERSTACK_ACCESS_KEY=${{ env.BROWSERSTACK_ACCESS_KEY }}
+         browserstack-sdk pytest -m sanity
