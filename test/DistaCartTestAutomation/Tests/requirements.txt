@@ -1,0 +1,5 @@
+browserstack-local >= 1.2.3
+selenium==3.141.0
+browserstack-sdk
+webdriver_manager
+urllib3==1.26.8

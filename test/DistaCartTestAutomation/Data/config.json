@@ -1,0 +1,13 @@
+{
+  "os" : "Windows",
+  "os_version" : "10",
+  "browser": "Chrome",
+  "browser_version" : "120.0",
+  "browser_stack_url" : "https://maheshbabu_h3dcwH:GwxKY3gbpbPny5zFqUs4@hub-cloud.browserstack.com/wd/hub",
+  "wait_time" : "90",
+  "app_url" : "https://www.distacart.com",
+  "currency" : "USD",
+  "build" : "DistaCartTestAutomation",
+  "user_name" : "distatestbot@gmail.com",
+  "user_password" : "DistaTest@123"
+}

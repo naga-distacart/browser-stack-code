@@ -1,0 +1,534 @@
+
+Wed Mar 20 2024 12:59:46:973 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Wed Mar 20 2024 12:59:50:219 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 12:59:51:739 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:00:40:434 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:00:41:773 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:00:44:26 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:13:44:458 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:13:45:710 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:13:47:855 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:17:38:935 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:17:40:200 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:17:42:496 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:23:23:496 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:23:24:715 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:23:26:566 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:27:36:110 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:27:37:499 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:27:39:418 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:36:29:563 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:36:30:884 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:36:32:714 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 13:40:56:794 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 13:40:58:14 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 13:40:59:892 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Wed Mar 20 2024 14:05:48:30 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Wed Mar 20 2024 14:05:49:673 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Wed Mar 20 2024 14:05:52:23 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+Wed Mar 20 2024 14:08:03:36 GMT+0530 (India Standard Time) -- Received runtime exception: TypeError: Cannot set property 'onmessage' of null
+    at repeaterConnection.onopen (bslocal.js:1:135651)
+    at he.<anonymous> (bslocal.js:1:61700)
+    at x.o (bslocal.js:1:13798391)
+    at x.emit (events.js:198:13)
+    at x.S (bslocal.js:1:13804384)
+    at ClientRequest.e (bslocal.js:1:13803178)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketOnData (_http_client.js:484:11)
+    at TLSSocket.emit (events.js:198:13)
+Wed Mar 20 2024 14:08:03:40 GMT+0530 (India Standard Time) -- Exiting.
+Wed Mar 20 2024 14:08:03:551 GMT+0530 (India Standard Time) -- Received runtime exception: TypeError: Cannot set property 'onmessage' of null
+    at repeaterConnection.onopen (bslocal.js:1:135651)
+    at he.<anonymous> (bslocal.js:1:61700)
+    at x.o (bslocal.js:1:13798391)
+    at x.emit (events.js:198:13)
+    at x.S (bslocal.js:1:13804384)
+    at ClientRequest.e (bslocal.js:1:13803178)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketOnData (_http_client.js:484:11)
+    at TLSSocket.emit (events.js:198:13)
+Wed Mar 20 2024 14:08:03:551 GMT+0530 (India Standard Time) -- Exiting.
+Wed Mar 20 2024 14:08:04:580 GMT+0530 (India Standard Time) -- Received runtime exception: TypeError: Cannot set property 'onmessage' of null
+    at repeaterConnection.onopen (bslocal.js:1:135651)
+    at he.<anonymous> (bslocal.js:1:61700)
+    at x.o (bslocal.js:1:13798391)
+    at x.emit (events.js:198:13)
+    at x.S (bslocal.js:1:13804384)
+    at ClientRequest.e (bslocal.js:1:13803178)
+    at Object.onceWrapper (events.js:286:20)
+    at ClientRequest.emit (events.js:198:13)
+    at TLSSocket.socketOnData (_http_client.js:484:11)
+    at TLSSocket.emit (events.js:198:13)
+Wed Mar 20 2024 14:08:04:580 GMT+0530 (India Standard Time) -- Exiting.
+
+Thu Mar 21 2024 09:52:37:274 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 09:52:38:184 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 09:52:39:154 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 10:19:41:914 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 10:19:42:671 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 10:19:43:681 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 10:21:20:170 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 10:21:21:298 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 10:21:22:215 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 10:23:05:215 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 10:23:06:256 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 10:23:07:166 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 10:23:50:685 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 10:23:51:668 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 10:23:52:376 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 11:26:57:174 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 11:26:58:210 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 11:26:59:603 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 11:54:41:793 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 11:54:42:724 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 11:54:44:230 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 11:59:47:354 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 11:59:47:823 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 11:59:50:0 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 12:22:10:303 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 12:22:38:332 GMT+0530 (India Standard Time) -- [ERROR] Could not reach the BrowserStack cloud
+Thu Mar 21 2024 12:22:38:332 GMT+0530 (India Standard Time) -- [ERROR] CONN_FAIL:4002 https://browserstack.com/docs/local-testing/binary/errors/4002
+Thu Mar 21 2024 12:22:38:342 GMT+0530 (India Standard Time) --  *** Error: Could not connect to local.browserstack.com due to Network issues. Please check your internet connection or if you are behind proxy please use our proxy options. For more details https://www.browserstack.com/local-testing#modifiers
+Thu Mar 21 2024 12:22:38:342 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Thu Mar 21 2024 12:22:38:343 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+
+Thu Mar 21 2024 12:23:06:502 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 12:23:08:14 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 12:23:09:292 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 13:00:41:464 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 13:00:42:454 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 13:00:43:383 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 13:38:03:345 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 13:38:04:211 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 13:38:05:845 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 14:32:57:162 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 14:32:57:376 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 14:32:59:203 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 15:29:22:563 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 15:29:22:761 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 15:29:23:783 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 16:50:46:143 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 16:50:46:954 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 16:50:48:298 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 16:52:54:831 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 16:52:55:426 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 16:52:56:200 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 16:55:31:839 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 16:55:31:987 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 16:55:34:108 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 16:57:12:462 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 16:57:13:177 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 16:57:14:616 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 16:57:33:557 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 16:57:34:651 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 16:57:35:518 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:02:16:344 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:02:16:748 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:02:18:182 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:07:23:583 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:07:24:738 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:07:27:248 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:18:01:457 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:18:02:514 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:18:03:715 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:42:45:856 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:42:46:900 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:42:47:889 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:44:16:780 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:44:17:649 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:44:18:844 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:45:25:666 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:45:26:568 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:45:27:581 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:46:21:220 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:46:22:128 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:46:23:431 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:47:10:728 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:47:11:853 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:47:12:825 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Thu Mar 21 2024 17:48:07:805 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Thu Mar 21 2024 17:48:08:773 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Thu Mar 21 2024 17:48:09:478 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+Thu Mar 21 2024 21:00:55:344 GMT+0530 (India Standard Time) --        
+Thu Mar 21 2024 21:00:55:345 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Thu Mar 21 2024 21:00:55:942 GMT+0530 (India Standard Time) --        
+Thu Mar 21 2024 21:00:55:943 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Thu Mar 21 2024 21:00:55:995 GMT+0530 (India Standard Time) --        
+Thu Mar 21 2024 21:00:55:995 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Thu Mar 21 2024 21:00:56:31 GMT+0530 (India Standard Time) --        
+Thu Mar 21 2024 21:00:56:32 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Thu Mar 21 2024 21:00:56:88 GMT+0530 (India Standard Time) --        
+Thu Mar 21 2024 21:00:56:89 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+
+Fri Mar 22 2024 11:06:37:480 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Fri Mar 22 2024 11:06:38:732 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Mar 22 2024 11:06:41:330 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Fri Mar 22 2024 11:08:38:595 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Fri Mar 22 2024 11:08:39:905 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Mar 22 2024 11:08:41:616 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Fri Mar 22 2024 11:11:00:877 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Fri Mar 22 2024 11:11:02:164 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Mar 22 2024 11:11:05:481 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Fri Mar 22 2024 16:12:17:373 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Fri Mar 22 2024 16:12:19:332 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Mar 22 2024 16:12:21:808 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Fri Mar 22 2024 16:13:49:656 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Fri Mar 22 2024 16:13:52:6 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Fri Mar 22 2024 16:13:54:213 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Sun Mar 24 2024 10:40:12:805 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Sun Mar 24 2024 10:40:14:726 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Sun Mar 24 2024 10:40:17:107 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Sun Mar 24 2024 10:41:22:131 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Sun Mar 24 2024 10:41:23:561 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Sun Mar 24 2024 10:41:26:320 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+Sun Mar 24 2024 14:14:14:580 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:14:581 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:14:686 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:14:687 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:14:847 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:14:847 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:14:988 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:14:988 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:111 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:111 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:209 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:210 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:401 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:401 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:649 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:650 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:681 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:681 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:15:858 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:15:859 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:16:395 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:16:396 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Sun Mar 24 2024 14:14:16:854 GMT+0530 (India Standard Time) --        
+Sun Mar 24 2024 14:14:16:854 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+
+Mon Mar 25 2024 10:55:27:637 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 10:55:27:664 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 10:55:29:278 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 11:00:48:396 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 11:00:49:403 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 11:00:50:126 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 11:08:32:782 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 11:08:33:247 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 11:08:34:748 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 11:36:37:597 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 11:36:38:694 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 11:36:40:74 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 11:45:31:499 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 11:45:32:594 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 11:45:33:223 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 11:53:48:911 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 11:53:50:22 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 11:53:50:510 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 12:00:41:734 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 12:00:42:800 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 12:00:43:707 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 12:08:19:558 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 12:08:20:660 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 12:08:22:571 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 12:17:16:593 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 12:17:17:712 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 12:17:18:509 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Mon Mar 25 2024 16:54:25:573 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Mar 25 2024 16:54:26:718 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Mar 25 2024 16:54:27:53 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+Mon Mar 25 2024 22:29:18:335 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:18:336 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:18:530 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:18:578 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:18:739 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:18:739 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:18:892 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:18:892 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:18:991 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:18:992 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:19:499 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:19:500 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:19:622 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:19:622 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Mon Mar 25 2024 22:29:19:665 GMT+0530 (India Standard Time) --        
+Mon Mar 25 2024 22:29:19:666 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+
+Tue Mar 26 2024 12:33:41:849 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Tue Mar 26 2024 12:33:42:853 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 12:33:43:623 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 12:39:22:963 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Tue Mar 26 2024 12:39:24:96 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 12:39:25:25 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 12:40:20:962 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Tue Mar 26 2024 12:40:21:967 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 12:40:23:671 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 13:34:07:999 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Tue Mar 26 2024 13:34:09:62 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 13:34:12:91 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 13:42:39:190 GMT+0530 (India Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Tue Mar 26 2024 13:42:40:262 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 13:42:42:466 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+Tue Mar 26 2024 14:31:34:425 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:34:426 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:34:560 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:34:561 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:34:573 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:34:573 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:34:701 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:34:701 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:35:386 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:35:386 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:35:419 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:35:420 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+Tue Mar 26 2024 14:31:35:439 GMT+0530 (India Standard Time) --        
+Tue Mar 26 2024 14:31:35:439 GMT+0530 (India Standard Time) -- You can learn more about BrowserStack Binary flags by running BrowserStackLocal.exe --help
+
+Tue Mar 26 2024 15:55:53:551 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 15:55:54:503 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Tue Mar 26 2024 15:55:55:422 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 16:13:45:446 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 16:13:46:282 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Tue Mar 26 2024 16:13:48:236 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+
+
+Tue Mar 26 2024 16:58:15:575 GMT+0530 (India Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Tue Mar 26 2024 16:58:16:89 GMT+0530 (India Standard Time) -- Starting configuration console on http://localhost:45454
+Tue Mar 26 2024 16:58:18:131 GMT+0530 (India Standard Time) -- Press Ctrl-C to exit
+
+

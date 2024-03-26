@@ -1,0 +1,19 @@
+#Begin REST return codes
+REST_SUCCESS               = 200
+REST_CREATED               = 201
+REST_BAD_REQUEST           = 400
+REST_UNAUTHORIZED          = 401
+REST_FORBIDDEN             = 403
+REST_NOT_FOUND             = 404
+REST_NOT_ALLOWED           = 405
+REST_CONFLICT              = 409
+REST_LENGTH_REQUIRED       = 411
+REST_PRECONDITION_FAILED   = 412
+REST_TOO_MANY_REQUESTS     = 429
+REST_INTERNAL_SERVER_ERROR = 500
+REST_BAD_GATEWAY           = 502
+REST_SERVICE_UNAVAILABLE   = 503
+#End REST return codes
+
+class Test:
+    pass
