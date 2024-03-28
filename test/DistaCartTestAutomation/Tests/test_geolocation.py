@@ -13,7 +13,8 @@ from DistaCartTestAutomation.Pages.productPage import ProductPage
 
 
 class TestGeolocation():
-    
+
+    @pytest.mark.sanityH
     def test_geolocation(self, browser):
         search_product = "Patanjali Gulab Jamun"
         search_product_xpath = locators.product_xpath.format("Patanjali Gulab Jamun")
@@ -27,6 +28,7 @@ class TestGeolocation():
         print("INFO: Verify that Product not available for sale in your country message is displayed")
         assert availability_text == "This product is not available for sale in your country"
 
+    @pytest.mark.sanityH
     def test_geolocation_product_page(self, browser):
         helper = Helper(browser)
         helper.navigate_to_url("https://www.distacart.com/products/patanjali-gulab-jamun")

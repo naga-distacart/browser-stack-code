@@ -14,6 +14,7 @@ import random
 
 class TestCategoryFood():
 
+    @pytest.mark.sanityH
     def test_category_food_available(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)
@@ -66,6 +67,7 @@ class TestCategoryFood():
             helper.wait()
             available_items = []
 
+    @pytest.mark.sanityH
     def test_category_food_sold(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)

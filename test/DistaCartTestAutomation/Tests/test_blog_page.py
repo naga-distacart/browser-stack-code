@@ -12,6 +12,7 @@ import random
 
 class TestBlogPage:
 
+    @pytest.mark.sanityH
     def test_blog_page(self, browser):
         helper = Helper(browser)
         helper.navigate_to_url("https://www.distacart.com/blogs/learn")

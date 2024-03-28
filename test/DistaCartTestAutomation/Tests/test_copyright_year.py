@@ -19,6 +19,7 @@ import DistaCartTestAutomation.Tests.conftest as c
 
 class TestCopyrightYear:
 
+    @pytest.mark.sanityH
     def test_Copy_Right_Year(self, browser):
         copy_right=browser.find_element_by_xpath(locators.copy_right_info_xpath)
         ActionChains(browser).move_to_element(copy_right).perform()

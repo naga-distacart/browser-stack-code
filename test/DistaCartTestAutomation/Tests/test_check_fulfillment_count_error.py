@@ -1,3 +1,4 @@
+import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,6 +13,7 @@ import time
 
 class TestCheckFulfillmentError:
     # Description:Checking for the product card attributes in all pages
+    @pytest.mark.sanityH
     def test_check_fulfillment_count_error_limespot(self, browser):
         helper = Helper(browser)
         #Checking from limespot
@@ -32,6 +34,7 @@ class TestCheckFulfillmentError:
         fulfillment_error = browser.find_elements_by_xpath(locators.cart_pop_up_fulfillment_error)
         assert len(fulfillment_error) == 0
         print("INFO: Asserted Fulfillment Error is not shown in Full cart")
+    @pytest.mark.sanityH
     def test_check_fulfillment_count_error_search(self, browser):
         #checking from search
         browser.switch_to.default_content()

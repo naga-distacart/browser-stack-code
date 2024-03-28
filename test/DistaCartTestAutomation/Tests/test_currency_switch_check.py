@@ -23,6 +23,7 @@ import DistaCartTestAutomation.Tests.conftest as c
 class TestCurrencySwitchCheck:
         #Checks the currency is same when we launch website in particular VPN
 
+    @pytest.mark.sanityH
     def test_currency_switch_check_US(self, browser):
         print("INFO: Checking the currency list is switching to right currency")
         helper = Helper(browser)
@@ -59,6 +60,7 @@ class TestCurrencySwitchCheck:
 
 
 
+    @pytest.mark.sanityH
     def test_currency_switch_check_AU(self, browser):
         helper = Helper(browser)
         print("INFO: Checking the currency list is switching to right currency")
@@ -94,6 +96,7 @@ class TestCurrencySwitchCheck:
         assert 'Australia (AUD)' == currency_text
 
 
+    @pytest.mark.sanityH
     def test_currency_switch_check_CA(self, browser):
         print("INFO: Checking the currency list is switching to right currency")
         helper = Helper(browser)
@@ -128,6 +131,7 @@ class TestCurrencySwitchCheck:
         currency_text = browser.find_element_by_xpath(locators.Currency_select).text
         assert 'Canada (CAD)' == currency_text
 
+    @pytest.mark.sanityH
     def test_currency_switch_check_NL(self, browser):
         print("INFO: Checking the currency list is switching to right currency")
         helper = Helper(browser)
@@ -162,6 +166,7 @@ class TestCurrencySwitchCheck:
         currency_text = browser.find_element_by_xpath(locators.Currency_select).text
         assert 'Netherlands (EUR)' == currency_text
 
+    @pytest.mark.sanityH
     def test_currency_switch_check_GB(self, browser):
         print("INFO: Checking the currency list is switching to right currency")
         helper = Helper(browser)

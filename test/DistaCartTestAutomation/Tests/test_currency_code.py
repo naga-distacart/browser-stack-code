@@ -19,6 +19,7 @@ class TestCurrencyCode:
     # supported_currencies = {"USD": "$", "CAD": "$", "AUD": "$", "GBP": "£", "EUR": "€", "JPY": "¥", "SGD": "$", "CHF": "SFr.", "SEK": "Kr"}
     supported_currencies = {"CAD": "$"}
 
+    @pytest.mark.sanityH
     def test_currency_cart_page(self, browser, get_user_name, get_password):
 
         currencies = json.dumps(TestCurrencyCode.supported_currencies)
@@ -141,6 +142,7 @@ class TestCurrencyCode:
                 browser.back()
         homepage.logout()
 
+    @pytest.mark.sanityH
     def test_currency_cart_popup(self, browser, get_user_name, get_password):
         currencies = json.dumps(TestCurrencyCode.supported_currencies)
         currencies_symbol = json.loads(currencies)

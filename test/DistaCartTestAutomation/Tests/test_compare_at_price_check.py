@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from DistaCartTestAutomation.Locators.locators import Locators as locators
 from DistaCartTestAutomation.Helpers.helper import Helper
 import re
@@ -7,6 +9,7 @@ import re
 
 class TestCompareAtPriceCheck:
 
+    @pytest.mark.sanityH
     def test_compare_at_price_check(self, browser):
         helper = Helper(browser)
         link=browser.current_url

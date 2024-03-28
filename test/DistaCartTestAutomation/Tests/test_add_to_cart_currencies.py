@@ -15,6 +15,7 @@ import random
 
 class TestAddToCartCurrencies:
 
+    @pytest.mark.sanityH
     def test_cart_currency_symbol(self, browser):
         supported_currencies1 = {"USD": "$", "CAD": "$", "AUD": "$"}
         #supported_currencies1 = {"USD": "$", "GBP": "£", "JPY": "¥","CHF": "CHF","EUR": "€","AUD": "$"}
@@ -113,6 +114,8 @@ class TestAddToCartCurrencies:
                 browser.find_element_by_xpath(locators.cart_minus_button_xpath).click()
                 helper.wait_small()
             no_of_items += 1
+
+    @pytest.mark.sanityH
     def test_cart_currency_symbol2(self, browser):
         supported_currencies1 = { "SGD": "$", "CHF": "CHF"}
         #supported_currencies1 = {"USD": "$", "GBP": "£", "JPY": "¥","CHF": "CHF","EUR": "€","AUD": "$"}
