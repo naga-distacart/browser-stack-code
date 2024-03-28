@@ -12,6 +12,7 @@ import random
 
 
 class TestCartItemsCountNavigation:
+    @pytest.mark.sanityH
     def test_cart_items_count_navigation(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)

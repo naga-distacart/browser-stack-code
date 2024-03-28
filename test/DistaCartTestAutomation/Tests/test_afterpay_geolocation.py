@@ -12,6 +12,7 @@ from DistaCartTestAutomation.Locators import locators
 
 class TestAfterPayGeolocation():
 
+    @pytest.mark.sanityH
     def test_geolocation_afterpay_product_page(self, browser):
         helper = Helper(browser)
         # link=browser.current_url
@@ -47,6 +48,7 @@ class TestAfterPayGeolocation():
         print("INFO: Verify that afterpay amount displayed in Product page is as per geolocation")
         assert 'GBP' in after_pay_text
 
+    @pytest.mark.sanityH
     def test_geolocation_coupons(self, browser):
         helper = Helper(browser)
         link=browser.current_url

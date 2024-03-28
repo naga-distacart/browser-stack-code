@@ -15,6 +15,7 @@ import random
 
 class TestBuyItNow:
 
+    @pytest.mark.sanityH
     def test_buy_it_now(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -90,6 +91,7 @@ class TestBuyItNow:
         # element = browser.find_elements_by_xpath(locators.continue_with_shop_pay)
         # assert len(element) > 0
 
+    @pytest.mark.sanityH
     def test_increase_quantity_buy_it_now(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)

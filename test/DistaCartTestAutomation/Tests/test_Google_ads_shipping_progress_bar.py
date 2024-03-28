@@ -17,6 +17,7 @@ import random
 
 class TestGoogleAdsShippingProgressBar():
 
+    @pytest.mark.sanityH
     def test_google_ads_shipping_progress_bar_US(self, browser):
         helper=Helper(browser)
         browser.get("https://www.distacart.com/products/isha-life-neem-and-turmeric-capsules?variant=37625830736031&currency=USD&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping&gclid=EAIaIQobChMIh9SW1POK_wIV-PPjBx3QmQw6EAQYASABEgI14PD_BwE")
@@ -48,6 +49,7 @@ class TestGoogleAdsShippingProgressBar():
         shipping_msg=browser.find_element(By.XPATH,locators.shipping_msg_mini_cart_xpath).text
         assert "200 $" not in shipping_msg
 
+    @pytest.mark.sanityH
     def test_google_ads_shipping_progress_bar_CA(self, browser):
         helper=Helper(browser)
         browser.get("https://www.distacart.com/en-ca/products/isha-life-neem-and-turmeric-capsules?variant=37625830736031&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping&srsltid=AR57-fAbqwK_ixuYBfRzyzcm5i-ZGbJzYvLBuX-FFHmmIGxwsNhk_Mo-CjM")
@@ -79,6 +81,7 @@ class TestGoogleAdsShippingProgressBar():
         shipping_msg=browser.find_element(By.XPATH,locators.shipping_msg_mini_cart_xpath).text
         assert "200 $" not in shipping_msg
 
+    @pytest.mark.sanityH
     def test_google_ads_shipping_progress_bar_AU(self, browser):
         helper=Helper(browser)
         browser.get("https://www.distacart.com/products/isha-life-neem-and-turmeric-capsules?variant=37625830736031&currency=AUD&utm_source=google&utm_medium=cpc&utm_campaign=google+shopping&gclid=EAIaIQobChMIh9SW1POK_wIV-PPjBx3QmQw6EAQYASABEgI14PD_BwE")

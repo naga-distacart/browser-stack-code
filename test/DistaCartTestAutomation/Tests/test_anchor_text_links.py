@@ -13,6 +13,7 @@ import random
 #Automation script for [Req 122] Collection page should have an in stock check box
 class TestAnchorTextLink:
 
+    @pytest.mark.sanityH
     def test_anchor_text_personal_info(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)
@@ -29,6 +30,7 @@ class TestAnchorTextLink:
                 (By.XPATH, locators.personal_info_page_element)))
         assert helper.is_element_present_by_xpath(locators.customer_login_element)
 
+    @pytest.mark.sanityH
     def test_anchor_text_orders(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)
@@ -45,7 +47,7 @@ class TestAnchorTextLink:
                 (By.XPATH, locators.personal_info_page_element)))
         assert helper.is_element_present_by_xpath(locators.customer_login_element)
 
-
+    @pytest.mark.sanityH
     def test_anchor_text_addresses(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)

@@ -19,6 +19,7 @@ import DistaCartTestAutomation.Tests.conftest as c
 
 class TestDiscountPercentageVisibility:
 
+    @pytest.mark.sanityH
     def test_discount_percentage_visibility(self, browser):
         helper = Helper(browser)
         link=browser.current_url

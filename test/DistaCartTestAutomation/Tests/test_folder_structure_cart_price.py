@@ -14,6 +14,7 @@ import pytest
 import random
 
 class TestFolderStructureCartPrice:
+    @pytest.mark.sanityH
     def test_add_to_cart(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)

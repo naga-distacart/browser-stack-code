@@ -10,7 +10,7 @@ import pytest
 import random
 
 class TestAddToCart:
-
+    @pytest.mark.sanityH
     def test_add_to_cart_US(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -99,6 +99,7 @@ class TestAddToCart:
             assert price == checkout_total_price.strip() + " " + checkout_total_currency
             no_of_items += 1
             available_items = []
+    @pytest.mark.sanityH
     def test_add_to_cart_CA(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -168,6 +169,7 @@ class TestAddToCart:
             no_of_items += 1
             available_items = []
 
+    @pytest.mark.sanityH
     def test_add_to_cart_AU(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -237,6 +239,7 @@ class TestAddToCart:
             no_of_items += 1
             available_items = []
 
+    @pytest.mark.sanityH
     def test_add_to_cart_GB(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -307,6 +310,7 @@ class TestAddToCart:
             no_of_items += 1
             available_items = []
 
+    @pytest.mark.sanityH
     def test_add_to_cart_NZ(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -376,6 +380,7 @@ class TestAddToCart:
             no_of_items += 1
             available_items = []
 
+    @pytest.mark.sanityH
     def test_add_to_cart_EU(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -448,6 +453,7 @@ class TestAddToCart:
             no_of_items += 1
             available_items = []
 
+    @pytest.mark.sanityH
     def test_add_to_cart_SG(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -518,6 +524,7 @@ class TestAddToCart:
             available_items = []
 
     @pytest.mark.sanity
+    @pytest.mark.sanityH
     def test_increase_quantity_from_cart_page(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)
@@ -600,6 +607,7 @@ class TestAddToCart:
             available_items = []
 
     @pytest.mark.sanity
+    @pytest.mark.sanityH
     def test_free_shipping_progress_bar(self, browser):
         helper = Helper(browser)
         product = 'g-pulla-reddy-special-assorted-sweets'
@@ -670,6 +678,7 @@ class TestAddToCart:
         assert '46%' == free_shipping_bar_percentage"""
 
     @pytest.mark.sanity
+    @pytest.mark.sanityH
     def test_add_to_cart_from_collections_page(self, browser):
         category = "Ayurveda"
         homepage = HomePage(browser)

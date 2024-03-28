@@ -13,6 +13,7 @@ import random
 
 class TestBrowseAllBrands():
 
+    @pytest.mark.sanityH
     def test_browse_all_brands(self, browser):
         homepage = HomePage(browser)
         helper = Helper(browser)

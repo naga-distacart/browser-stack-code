@@ -16,6 +16,7 @@ import random
 
 
 class TestBssTags:
+    @pytest.mark.sanityH
     def test_bss_tags(self, browser):
         helper = Helper(browser)
         link=browser.current_url

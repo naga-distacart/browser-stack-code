@@ -1,3 +1,5 @@
+import pytest
+
 from DistaCartTestAutomation.Locators.locators import Locators as locators
 from DistaCartTestAutomation.Helpers.helper import Helper
 import time
@@ -5,6 +7,7 @@ import random
 
 
 class TestBrowseByBrandsCurrencySwitch:
+    @pytest.mark.sanityH
     def test_browse_by_brands_currency_switch(self,browser):
         helper = Helper(browser)
         link=browser.current_url

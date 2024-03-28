@@ -1,5 +1,7 @@
 
 import math
+
+import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -15,6 +17,7 @@ import random
 
 class TestAfterPayCheck:
 
+    @pytest.mark.sanityH
     def test_after_pay_check_US(self, browser):
         helper=Helper(browser)
         link = browser.current_url
@@ -151,6 +154,7 @@ class TestAfterPayCheck:
             afterpay_check = browser.find_element_by_xpath(locators.after_pay_logo_badge_xpath).get_attribute('style')
             assert afterpay_check == "display: none;"
 
+    @pytest.mark.sanityH
     def test_after_pay_check_NZ(self, browser):
         helper=Helper(browser)
         link = browser.current_url
@@ -269,6 +273,7 @@ class TestAfterPayCheck:
             afterpay_check = browser.find_element_by_xpath(locators.after_pay_logo_badge_xpath).get_attribute('style')
             assert afterpay_check == "display: none;"
 
+    @pytest.mark.sanityH
     def test_after_pay_check_UK(self, browser):
         helper=Helper(browser)
         # link = browser.current_url
@@ -386,6 +391,7 @@ class TestAfterPayCheck:
             afterpay_check = browser.find_element_by_xpath(locators.after_pay_logo_badge_xpath).get_attribute('style')
             assert afterpay_check == "display: none;"
 
+    @pytest.mark.sanityH
     def test_after_pay_check_CA(self, browser):
         helper=Helper(browser)
         link = browser.current_url
@@ -503,6 +509,7 @@ class TestAfterPayCheck:
             afterpay_check = browser.find_element_by_xpath(locators.after_pay_logo_badge_xpath).get_attribute('style')
             assert afterpay_check == "display: none;"
 
+    @pytest.mark.sanityH
     def test_after_pay_check_AU(self, browser):
         helper=Helper(browser)
         link = browser.current_url
@@ -620,6 +627,7 @@ class TestAfterPayCheck:
             afterpay_check = browser.find_element_by_xpath(locators.after_pay_logo_badge_xpath).get_attribute('style')
             assert afterpay_check == "display: none;"
 
+    @pytest.mark.sanityH
     def test_after_pay_check_SG(self, browser):
         helper = Helper(browser)
         link = browser.current_url
@@ -668,6 +676,7 @@ class TestAfterPayCheck:
             after_pay=browser.find_elements_by_xpath(locators.after_pay_logo_badge_xpath)
             assert len(after_pay)==0
 
+    @pytest.mark.sanityH
     def test_after_pay_check_FR(self, browser):
         helper = Helper(browser)
         link = browser.current_url

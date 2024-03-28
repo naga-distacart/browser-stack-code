@@ -12,6 +12,7 @@ import random
 
 
 class TestCartSliderExpressCheckout:
+    @pytest.mark.sanityH
     def test_cart_slider_express_checkout(self, browser, get_user_name, get_password):
         homepage = HomePage(browser)
         helper = Helper(browser)

@@ -18,6 +18,7 @@ import random
 
 class TestAddToCartDifferentVariants:
 
+    @pytest.mark.sanityH
     def test_add_to_cart_different_variants(self, browser):
         helper = Helper(browser)
         helper.set_currency("USD")

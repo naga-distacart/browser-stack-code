@@ -16,6 +16,7 @@ import random
 
 class TestBabyKidsMenu:
 
+    @pytest.mark.sanityH
     def test_baby_kids_menu(self, browser):
         category = "Baby & Kids"
         homepage = HomePage(browser)
